@@ -1,11 +1,32 @@
+import { useEffect } from 'react';
+
 export const About = () => {
   return (
-    <section id="about" className="py-20">
-      <div className="container mx-auto">
-        <h2 className="text-3xl font-bold mb-8">About Me</h2>
-        <p className="text-lg mb-4">Hi, I'm Cyril, a Software Engineer</p>
-        <p className="text-lg mb-4">I specialize in building responsive and interactive web applications using modern technologies such as React, Vue, and Angular.</p>
-        <p className="text-lg">When I'm not coding, you can find me [Your Hobbies/Interests].</p>
+    <section id="about" className="py-20 bg-gray-100 opacity-0 translate-y-10 transition duration-1000 ease-out fade-in-section">
+      <div className="container mx-auto px-4">
+        <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="flex justify-center">
+            <img src="/src/assets/img/me.jpg" alt="Your Name" className="w-64 h-64 rounded-full object-cover shadow-lg" />
+          </div>
+          <div>
+            <h3 className="text-2xl font-bold mb-4">I'm Cyril</h3>
+            <p className="text-lg mb-4">
+              A Software Engineer (by choice) and what started as a hobby eventually grew into a passion and a career.
+            </p>
+            <p className="text-lg mb-4">
+              Started as a self-taught frontend developer, and over time, I’ve gone from just a code monkey,
+              to actively solving problems; a Software Engineer.
+            </p>
+            <p className="text-lg mb-4">
+              While proficient in front-end, I'm somewhat good in back-end as well.
+              Strenghtening these two aspect, while paving my way to DevOps 👀
+            </p>
+            <p className="text-lg">
+              I also dwell in anime and games 🎮. A little bit of travelling here and there too.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
