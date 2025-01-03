@@ -20,7 +20,7 @@ export const Projects = () => {
   return (
     <section id="projects" className="py-20 opacity-0 translate-y-10 transition duration-1000 ease-out fade-in-section">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-8 text-center">My Projects</h2>
+        <h2 className="text-4xl font-bold mb-8 text-center">Portfolios</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <div key={project.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -32,7 +32,7 @@ export const Projects = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+                  className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
                 >
                   View Project
                 </a>

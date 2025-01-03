@@ -1,5 +1,3 @@
-import { useEffect } from 'react';
-
 export const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-100 opacity-0 translate-y-10 transition duration-1000 ease-out fade-in-section">
