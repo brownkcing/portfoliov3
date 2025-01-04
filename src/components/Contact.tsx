@@ -7,7 +7,7 @@ export const Contact = () => {
         <h2 className="text-4xl font-bold mb-8 text-center">Contact Me</h2>
         <div className="max-w-lg mx-auto text-center">
           <p className="text-xl mb-8">
-            If you have any questions, project ideas, hire me, or just want to say hello, feel free to send me an email.
+            If you have any questions, project ideas, want to hire me, or just want to say hello, feel free to send me an email.
           </p>
           <a
             href={`mailto:${email}`}

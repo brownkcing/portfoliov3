@@ -1,20 +1,34 @@
+
 export const Projects = () => {
+
+  const project1Desc = () => (
+    <>
+      <p>
+        A personal finance management.
+      </p>
+      <p>
+        A React + TypeScript project using Vite, Tailwind CSS, and Radix/UI for a responsive UI, 
+        with Redux Toolkit for state management + Thunk for async behaviour. A mock API layer is constructed to simulate
+        network delays via LocalStorage.
+      </p>
+    </>
+  ) 
+
   const projects = [
     {
       id: 1,
-      title: 'Project 1',
-      description: 'A brief description of Project 1',
-      image: '/path/to/project1-image.jpg',
-      link: 'https://project1.com',
+      title: 'BudgetBuddie',
+      description: project1Desc(),
+      image: '/src/assets/img/budgetbuddie.jpg',
+      link: 'https://budgetbuddie.netlify.app',
     },
     {
       id: 2,
       title: 'Project 2',
-      description: 'A brief description of Project 2',
-      image: '/path/to/project2-image.jpg',
+      description: 'Coming soon',
+      image: '/src/assets/img/construction.jpg',
       link: 'https://project2.com',
     },
-    // Add more projects as needed
   ];
 
   return (
