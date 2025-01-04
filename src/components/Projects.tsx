@@ -1,6 +1,8 @@
 
-export const Projects = () => {
+import budgetBuddie from '/src/assets/img/budgetbuddie.jpg';
+import comingSoon from '/src/assets/img/construction.jpg';
 
+export const Projects = () => {
   const project1Desc = () => (
     <>
       <p>
@@ -19,14 +21,14 @@ export const Projects = () => {
       id: 1,
       title: 'BudgetBuddie',
       description: project1Desc(),
-      image: '/src/assets/img/budgetbuddie.jpg',
+      image: budgetBuddie,
       link: 'https://budgetbuddie.netlify.app',
     },
     {
       id: 2,
       title: 'Project 2',
       description: 'Coming soon',
-      image: '/src/assets/img/construction.jpg',
+      image: comingSoon,
       link: 'https://project2.com',
     },
   ];
