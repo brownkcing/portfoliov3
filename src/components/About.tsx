@@ -1,3 +1,5 @@
+import meImage from '/src/assets/img/me.jpg'
+
 export const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-100 opacity-0 translate-y-10 transition duration-1000 ease-out fade-in-section">
@@ -5,7 +7,7 @@ export const About = () => {
         <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="flex justify-center">
-            <img src="/src/assets/img/me.jpg" alt="Your Name" className="w-64 h-64 rounded-full object-cover shadow-lg" />
+            <img src={meImage} alt="cyril" className="w-64 h-64 rounded-full object-cover shadow-lg" />
           </div>
           <div>
             <h3 className="text-2xl font-bold mb-4">I'm Cyril</h3>
