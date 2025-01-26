@@ -1,5 +1,5 @@
 import budgetBuddie from "/src/assets/img/budgetbuddie.jpg";
-import makanWhere from "/src/assets/img/makanWhere.jpg";
+import makanWhere from "/src/assets/img/makanwhere.jpg";
 import comingSoon from "/src/assets/img/construction.jpg";
 
 export const Projects = () => {
