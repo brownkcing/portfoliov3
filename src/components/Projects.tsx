@@ -37,7 +37,7 @@ export const Projects = () => {
     },
     {
       id: 2,
-      title: "Project 2",
+      title: "MakanWhere",
       description: project2Desc(),
       image: makanWhere,
       link: "https://makan-where.netlify.app/",
