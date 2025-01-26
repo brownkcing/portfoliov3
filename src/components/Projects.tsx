@@ -22,8 +22,8 @@ export const Projects = () => {
         A React + TypeScript project using NextJS, Tailwind CSS, and Radix/UI
         for a responsive UI. With an added ✨ touch from Mistral AI, this app
         will let AI choose/recommend you the best place for your next meal.
-        🚧UNDER FINE TUNING🚧
       </p>
+      <p> 🚧UNDER FINE TUNING🚧 </p>
     </>
   );
 
